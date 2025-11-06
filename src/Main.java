@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 public class Main
 {
-    public static void main (String[]args) throws IOException
+    public static void Main (String[]args) throws IOException
     {
         boolean[][] schedule = new boolean[8][60];
         AppointmentBook a = new AppointmentBook(schedule);
